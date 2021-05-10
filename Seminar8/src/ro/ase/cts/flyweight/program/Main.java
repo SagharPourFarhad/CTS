@@ -11,10 +11,10 @@ public class Main {
         Rezervare rezervare3 = new Rezervare(200,10,22);
 
         FabricaClienti fabricaClienti = new FabricaClienti();
-        Client client1 = fabricaClienti.getClient("alex@yahoo.com");
+        Client client1 = fabricaClienti.getClient("saghar@yahoo.com");
 
         client1.printeazaInformatiiRezervare(rezervare1);
-        fabricaClienti.getClient("adi@yahoo.com").printeazaInformatiiRezervare(rezervare2);
-        fabricaClienti.getClient("adi@yahoo.com").printeazaInformatiiRezervare(rezervare3);
+        fabricaClienti.getClient("matei@yahoo.com").printeazaInformatiiRezervare(rezervare2);
+        fabricaClienti.getClient("matei@yahoo.com").printeazaInformatiiRezervare(rezervare3);
     }
 }
